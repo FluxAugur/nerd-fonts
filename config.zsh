@@ -1,0 +1,14 @@
+POWERLEVEL9K_MODE='awesome-patched'
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%{%F{249}%}\u250f"
+POWERLEVEL9K_MULTILINE_SECOND_PROMPT_PREFIX="%{%F{249}%}\u2517%{%F{default}%} "
+POWERLEVEL9K_SSH_DISABLE_PROMPT=false
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=0
+# POWERLEVEL9K_RAM_ELEMENTS=(ram_free)
+POWERLEVEL9K_TIME_FORMAT="%D{%H:%M:%S} \UE12E"
+POWERLEVEL9K_SHOW_CHANGESET=true
+POWERLEVEL9K_CHANGESET_HASH_LENGTH=7
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('os_icon' 'ssh' 'root_indicator' 'context' 'dir' 'vcs')
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('status' 'rspec_stats' 'history' 'ip')
+ZSH_THEME="powerlevel9k/powerlevel9k"
+plugins=(git git-flow-avh osx zsh_reload colored-man-pages colorize github kitchen rake ssh-agent vagrant)
