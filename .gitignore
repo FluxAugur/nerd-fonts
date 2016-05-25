@@ -2,3 +2,4 @@ temp-glyph-source-fonts/*
 temp/*
 patched-fonts/Input*
 unpatched-sample-fonts/Input*
+test-vm/.vagrant

@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+temp-glyph-source-fonts/*
+temp/*
+patched-fonts/Input*
+unpatched-sample-fonts/Input*
+=======
+test-vm/.vagrant
+>>>>>>> 1f1ace831bdf489bbb4eba1735a64bb2c1363c26
